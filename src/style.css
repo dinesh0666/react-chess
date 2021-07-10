@@ -1,0 +1,28 @@
+h1,
+p {
+  font-family: Lato;
+}
+.chessWrapper {
+  display: flex;
+  border: 1px solid;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.chessBoxes-white {
+  background-color: white;
+  width: 160px;
+  height: 70px;
+}
+
+.chessBoxes-black {
+  background-color: grey;
+  width: 160px;
+  height: 70px;
+}
+
+.board-wrapper {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid;
+}
